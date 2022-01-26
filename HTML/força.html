@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<title>Força</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../CSS/estilo.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">	
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+	<script src="../JS/calcforça.js"></script>
+	<style type="text/css">
+		.imagem{
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+		}
+	</style>
+	<link rel="icon" type="image/png" href="../IMG/favicon.ico">
+</head>
+<body>
+		<header>
+		<nav class="navbar navbar-default navbar-expand-md justify-content-center">
+			<button class="navbar-toggler" data-toggle="collapse" data-target="#bot">
+				<span class="material-icons">menu</span>
+			</button>
+			<div class="navbar-collapse collapse align-items-center" id="bot">
+				<ul class="navbar-nav mx-auto text-center">
+					<li class="nav-item active"><a class="nav-link" href="index.html">Física</a></li>
+					<li class="nav-item active"><a class="nav-link" href="velocidade.html">Velocidade Média</a></li>
+					<li class="nav-item active"><a class="nav-link" href="força.html">Força</a></li>
+					<li class="nav-item active"><a class="nav-link" href="contato.html">Contato</a></li>
+				</ul>
+			</div>
+		</nav>
+	</header>
+		<br>
+		<main>
+			<h1 id="tit">Força</h1> 	
+			<p class="cont">A <strong>Segunda lei de Newton</strong> é conhecida como o Princípio Fundamental da Dinâmica e mostra que a força resultante que atua sobre um corpo é resultado da multiplicação da massa do corpo por sua aceleração. É possível notar que, caso um corpo esteja parado ou em movimento retilíneo uniforme, a sua aceleração será nula e, portanto, não haverá força resultante. A equação que descreve a Segunda lei de Newton indica que a força resultante e a aceleração terão sempre mesma direção e sentido, mas o sentido dessas grandezas nem sempre será o mesmo da velocidade do corpo. Caso a força resultante atue de modo que o valor da velocidade aumente, os sentidos desses vetores serão os mesmos; mas se a força atuar de maneira que o módulo da velocidade diminua com o tempo, os vetores força e velocidade terão sentidos opostos.
+			</p><br><br>
+			<p class="cont">Representamos matematicamente a Segunda Lei como: <b>F = m . a</b></p>
+			<p class="cont">F = Força resultante. A unidade no sistema internacional é o newton (N).<br>
+			m = Massa. A unidade no sistema internacional é o quilograma (kg). <br>
+			a = Aceleração. A unidade no sistema internacional é o metro por segundo ao quadrado (m/s²). <br><br></p>
+			<img src="../IMG/força.jpg" alt="Representação força" class="img-fluid imagem">
+			<p class="cont"><i>Fontes:  <a href="https://mundoeducacao.bol.uol.com.br/fisica/segunda-lei-newton.htm" target="blank_">Mundo educação</a>  <a href="https://www.todamateria.com.br/segunda-lei-de-newton/" target="blank_">Toda matéria</a></i><br><br></p>
+			<div class="container">
+				<div class="row justify-content-center">
+					<input type="number" id="kg" placeholder="Massa (kg)" class="form-control"><br><br>
+					<input type="number" id="m/s2" placeholder="Aceleração (m/s²)" class="form-control"><br><br>
+					<button onclick="cf()" id="but" class="btn btn-primary">
+					Calcular</button><br><br>
+				</div>
+				<p id="te">A força resultante em N é:</p>
+				<p id="vazio"></p>
+			</div>
+		</main>
+			<br>
+
+	<footer class="page-footer font-small teal pt-4">
+	<div class="row">
+		<div class="col-md-6 mt-md-0 mt-3">
+			<h5 class="text-uppercase font-weight-bold">Footer text 1</h5>
+        	<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita sapiente sint, nulla, nihil
+          	repudiandae commodi voluptatibus corrupti animi sequi aliquid magnam debitis, maxime quam recusandae
+          	harum esse fugiat. Itaque, culpa?</p>
+			  <section class="redessociais">
+                <a href="https://www.facebook.com" target="blank">
+                    <img src="../IMG/face.png" alt="face"/>
+                </a>
+                <a href="https://twitter.com" target="blank">
+                    <img src="../IMG/twitter.png" alt="Twitter">
+                </a>
+                <a href="https://www.instagram.com" target="blank">
+                    <img  src="../IMG/insta.png" alt="Instagram">
+                </a>
+                <a href="https://www.gmail.com" target="blank">
+                   	<img src="../IMG/email.png" alt="email">
+                </a>
+            </section>
+		</div>
+    </div>
+	<div class="footer-copyright">
+		<p>© 2019 Copyright: 101 Info </p>
+	</div>
+</footer>
+</body>
+</html>

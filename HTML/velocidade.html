@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<title>Velocidade Média</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../CSS/estilo.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">	
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+	<script src="../JS/script.js"></script>
+	<style type="text/css">
+		.imagem{
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+		}
+	</style>
+	<link rel="icon" type="image/png" href="../IMG/favicon.ico">
+</head>
+<body>
+		<header>
+		<nav class="navbar navbar-default navbar-expand-md justify-content-center">
+			<button class="navbar-toggler" data-toggle="collapse" data-target="#bot">
+				<span class="material-icons">menu</span>
+			</button>
+			<div class="navbar-collapse collapse align-items-center" id="bot">
+				<ul class="navbar-nav mx-auto text-center">
+					<li class="nav-item active"><a class="nav-link" href="index.html">Física</a></li>
+					<li class="nav-item active"><a class="nav-link" href="velocidade.html">Velocidade Média</a></li>
+					<li class="nav-item active"><a class="nav-link" href="força.html">Força</a></li>
+					<li class="nav-item active"><a class="nav-link" href="contato.html">Contato</a></li>
+				</ul>
+			</div>
+		</nav>
+	</header>
+		<br>
+		<main>
+			<h1 id="tit">Velocidade Média</h1> 	
+			<p class="cont">A velocidade de um corpo é dada pela relação entre o deslocamento de um corpo em determinado tempo. Pode ser considerada a grandeza que mede o quão rápido um corpo se desloca.
+			A análise da velocidade se divide em dois principais tópicos: velocidade média e velocidade instantânea. É considerada uma grandeza vetorial, ou seja, tem um módulo (valor numérico), uma direção (Ex.: vertical, horizontal,...) e um sentido (Ex.: para frente, para cima, ...). Porém, para problemas elementares, onde há deslocamento apenas em uma direção, o chamado movimento unidimensional, convém tratá-la como uma grandeza escalar (com apenas valor numérico).
+			</p><br><br>
+			<p class="cont">Representamos de forma matemática a fórmula da velocidade média: <b>Vm = S / t</b></p>
+			<p class="cont">Vm = Velocidade média (km/h ou m/s).<br>
+			S = Distância percorrida (km ou m). <br>
+			t = Tempo percorrido (h ou s). <br><br></p>
+			<p class="cont">No <b>Sistema Internacional de Unidades</b> (SI) a velocidade é dada em metros por segundo (m/s).
+			Contudo, outra maneira de medir a velocidade é em quilômetros por hora (km/h), como notamos nas velocidades marcadas pelos carros e nas placas de trânsito.
+			Nesse sentido, é importante destacar que para a converter m/s em km/h multiplica-se por 3,6.
+			Por outro lado, para transformar km/h em m/s divide-se o valor por 3,6, visto que 1 km são 1000 metros e 1 hora correspondem a 3600 s.</p><br><br>
+			<img src="../IMG/conv.jpg" alt="Conversão de medidas" class="img-fluid imagem">
+			<p class="cont"><i>Fontes:  <a href="https://www.sofisica.com.br/conteudos/Mecanica/Cinematica/velocidade.php" target="blank_">Só Física</a>  <a href="https://www.todamateria.com.br/velocidade-media/" target="blank_">Toda matéria</a></i><br><br></p>
+			<div class="container">
+				<div class="row justify-content-center">
+					<input type="number" id="km" placeholder="Distância (km)" class="form-control"><br><br>
+					<input type="number" id="h" placeholder="Tempo (h)" class="form-control"><br><br>
+					<button onclick="fa()" id="but" class="btn btn-primary">
+					Calcular</button><br><br>
+				</div>
+				<p id="te">A velocidade média é:</p>
+				<p id="vazio"></p>
+			</div>
+		</main>
+			<br>
+
+	<footer class="page-footer font-small teal pt-4">
+	<div class="row">
+		<div class="col-md-6 mt-md-0 mt-3">
+			<h5 class="text-uppercase font-weight-bold">Footer text 1</h5>
+        	<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita sapiente sint, nulla, nihil
+          	repudiandae commodi voluptatibus corrupti animi sequi aliquid magnam debitis, maxime quam recusandae
+          	harum esse fugiat. Itaque, culpa?</p>
+          	<section class="redessociais">
+                <a href="https://www.facebook.com" target="blank">
+                    <img src="../IMG/face.png" alt="face"/>
+                </a>
+                <a href="https://twitter.com" target="blank">
+                    <img src="../IMG/twitter.png" alt="Twitter">
+                </a>
+                <a href="https://www.instagram.com" target="blank">
+                    <img  src="../IMG/insta.png" alt="Instagram">
+                </a>
+                <a href="https://www.gmail.com" target="blank">
+                   	<img src="../IMG/email.png" alt="email">
+                </a>
+            </section>
+		</div>
+    </div>
+	<div class="footer-copyright">
+		<p>© 2019 Copyright: 101 Info </p>
+	</div>
+</footer>
+</body>
+</html>

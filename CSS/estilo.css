@@ -1,0 +1,106 @@
+body{
+	/*background-image: url(eu.jpg);*/
+	padding: 0px 140px 0px 140px;
+	background-image: url(eu.jpg);
+}
+#tit{
+	text-align: center;
+	padding: 40px 0 30px 0;
+	color: #483D8B;
+	font-weight: normal;
+}
+.cont{
+	text-align: justify;
+	color: white;
+	font-size: 1.1em;
+	line-height: 1.6;
+}
+.nav-link{
+	color: white !important;
+	font-size: 1.50em;
+	font-family: Arial;
+
+}
+.nav-link:hover{
+	background-color: grey;
+	border-bottom-style: solid;
+	border-bottom-color: #483D8B;
+	border-width: 5px;
+}
+.navbar-toggler{
+	color: white !important;
+}
+#te{
+	display: inline;
+	padding: 0px;
+	margin: 0px;
+}
+#vazio{
+	display: inline;
+	margin: none;
+	padding: 0px;
+	margin: 0px;
+}
+#km, #h,{
+	background-color: black !important;
+	color: white !important;
+	border-radius: 10px;
+	margin-left: 40px;
+	margin-right: 40px;
+}
+.page-footer{
+	border-style: solid;
+	border-color: #483D8B;
+	background-color: #483D8B !important;
+}
+.text-uppercase{
+	color: white !important;
+}
+main{
+	border-style: solid;
+	border-width: 1px;
+	border-color: white !important;
+	background-color: black !important;
+	margin: 0 auto;
+}
+p, h5{
+	padding: 0 30px 0 30px;
+	text-align: justify;
+}
+header{
+	border-style: solid;
+	border-width: 1px;
+	border-color: white !important;
+	border-top: none;
+	background-color: black;
+}
+p{
+	text-align: justify;
+	color: white;
+	font-size: 1.1em;
+	line-height: 1.6;
+}
+.formulario{
+	color: white;
+	text-align: center;
+}
+
+.redessociais{
+    margin-left:25px;
+}
+.redes{
+	position:relative;
+	width:50px;
+	height:50px;
+    float: left;
+    margin-left:5px;
+}
+.form-control{
+	text-align: center;
+	background-color: black !important;
+	color: white !important;
+}
+.btn{
+	background-color: #483D8B !important;
+	border-color: #483D8B !important;
+}
